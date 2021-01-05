@@ -57,7 +57,7 @@ All site file are here:
 
 To fix the issue requiring ftp access for plug-in installation
 ``` bash
-sudo chown -R www-data  /var/lib/docker/volumes/thismac_vol-wp-content/
+sudo chown -R www-data  /var/lib/docker/volumes/wordpress-docker_vol-wp-content/
 ```
 
 for the docker part I used this guide modifying it a bit:
