@@ -5,7 +5,7 @@
 * phpMyAdmin to easily manage your databases
 * Automatic container updates (via Watchtower)
 
-For a VM ypu can use google cloud with the standard free VM but you have only 600 MB of ram, one share core, 30Gb.
+For a VM you can use google cloud with the standard free VM but you have only 600 MB of ram, one share core, 30Gb.
 I personaly raccomend to use Oracle Cloud because you have 1 GB of ram, 2 core, 50 GB
 
 In any case i racomend to add a swapfile
