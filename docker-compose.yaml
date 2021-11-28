@@ -51,7 +51,8 @@ services:
   # available, automatically updating &amp;amp;amp;amp; restarting them if needed.
   watchtower:
     # https://hub.docker.com/r/centurylink/watchtower/
-    image: v2tec/watchtower:latest
+    # new repo https://hub.docker.com/r/containrrr/watchtower
+    image: containrrr/watchtower:latest
     # https://github.com/v2tec/watchtower#options
     # This schedule applies updates (if available) at midnight.
     command: --cleanup --schedule "0 0 0 * * *"
@@ -113,7 +114,8 @@ services:
   # dashboard, this is behind a login prompt to help you stay secure.
   wp-phpmyadmin:
     # https://hub.docker.com/r/phpmyadmin/phpmyadmin/
-    image: phpmyadmin/phpmyadmin:latest
+    # new repo https://hub.docker.com/_/phpmyadmin
+    image: phpmyadmin:latest
     depends_on:
       - wp-db
     restart: always
